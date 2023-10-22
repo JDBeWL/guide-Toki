@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /how to use/third-party-plugins/ba-plugin
+      link: /how to use/Koilin-commands
     - theme: alt
       text: 关于
       link: /how to use/about
