@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /how to use/about
+      link: /how to use/third-party-plugins/ba-plugin
     - theme: alt
       text: 关于
-      link: /about
+      link: /how to use/about
 
 features:
   - icon: 
