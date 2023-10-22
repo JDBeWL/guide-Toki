@@ -14,9 +14,9 @@ export default defineConfig({
     ],
     sidebar: [
       {
-        text: '关于本向导',
-        items: [
-          { link: '/how to use/about' },
+        text: '目标',
+        items:[
+          {text:'现有目标',link: '/how to use/index' }
         ]
       },
       { 
@@ -27,9 +27,17 @@ export default defineConfig({
             items:[
                     {text: '碧蓝档案',link: '/how to use/third-party-plugins/ba-plugin'},
                     {text: 'Bangumi(番组计划)',link: '/how to use/third-party-plugins/bangumi-plugin'},
-                    {text: 'twdne(随机WiFe)',link: '/how to use/third-party-plugins/twdne-plugin'}
-            ],
-            link: '/how to use/third-party-plugins/index'
+                    {text: 'twdne(随机WiFe)',link: '/how to use/third-party-plugins/twdne-plugin'},
+                    {text: '5k(生成5k图)',link: '/how to use/third-party-plugins/5k-plugin'},
+                    {text: '随机capoo图',link: '/how to use/third-party-plugins/capoo-plugin'},
+                    {text: '猜数字小游戏',link: '/how to use/third-party-plugins/guess-number-plugin'},
+                    {text: '一言',link: '/how to use/third-party-plugins/hitokoto-plugin'},
+                    {text: '手办Wiki',link: '/how to use/third-party-plugins/hpoi-plugin'},
+                    {text: '沙沙一言',link: '/how to use/third-party-plugins/marisa-reply-plugin'},
+                    {text: '人间',link: '/how to use/third-party-plugins/renjian-plugin'},
+                    {text: '骚话文案',link: '/how to use/third-party-plugins/saohua-word-plugin'},
+                    {text: '喜报/悲报',link: '/how to use/third-party-plugins/xibao-plugin'}
+            ]
           }
         ]
       }
